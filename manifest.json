@@ -4,9 +4,49 @@
     "description": "",
     "start_url": "http://127.0.0.1:3002/index.html",
     "display": "minimal-ui",
-    "background_color": "",
-    "theme_color": "",
+    "background_color": "blue",
+    "theme_color": "black",
     "icons": [
+      {
+        "src": "/assets/images/icons/0-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/1-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/2-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/3-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/4-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/5-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/arrow-up.png",
+        "sizes": "any",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/icons/arrow-down.png",
+        "sizes": "any",
+        "type": "image/png"
+      },
       {
         "src": "/assets/images/icons/icon-192x192.png",
         "sizes": "192x192",
