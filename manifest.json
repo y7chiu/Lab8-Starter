@@ -67,7 +67,8 @@
       {
        "src": "./assets/images/icons/icon-512x512.png",
         "sizes": "512x512",
-        "form_factor": "wide"
+        "form_factor": "wide",
+        "label": "Wonder Widgets"
       }
   ]
   }
