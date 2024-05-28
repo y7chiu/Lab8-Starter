@@ -2,7 +2,7 @@
     "name": "Lab8-Starter",
     "short_name": "Yi-Chan Chiu, Satvik Sriram",
     "description": "",
-    "start_url": "https://y7chiu.github.io/Lab8-Starter/",
+    "start_url": "http://127.0.0.1:3002/index.html",
     "display": "minimal-ui",
     "background_color": "blue",
     "theme_color": "black",
