@@ -118,14 +118,15 @@ async function getRecipes() {
         // A9. TODO - Check to see if you have finished retrieving all of the recipes,
         //            if you have, then save the recipes to storage using the function
         //            we have provided. Then, pass the recipes array to the Promise's
-        //            resolve() method.
+        //            resolve() method.       
         if(RECIPE_URLS.length() == recipesArr.length()) {
           saveRecipesToStorage(recipesArr);
           resolve(recipesArr);
         }
+        console.log("here");
       } catch (error) {
         // A10. TODO - Log any errors from catch using console.error
-        console.error();
+        console.error('getRecipes failed', error);
         // A11. TODO - Pass any errors to the Promise's reject() function
         reject(recipesArr);
       }
