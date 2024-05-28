@@ -2,11 +2,47 @@
     "name": "Lab8-Starter",
     "short_name": "Yi-Chan Chiu, Satvik Sriram",
     "description": "",
+    "id": "/Lab8-Starter/",
     "start_url": "https://y7chiu.github.io/Lab8-Starter/",
     "display": "minimal-ui",
     "background_color": "blue",
     "theme_color": "black",
     "icons": [
+      {
+        "src": "/assets/images/icons/0-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/1-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/2-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/3-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/4-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/5-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/arrow-down.png",
+        "sizes": "any",
+        "type": "image/png"
+      },
       {
         "src": "/assets/images/icons/icon-192x192.png",
         "sizes": "192x192",
