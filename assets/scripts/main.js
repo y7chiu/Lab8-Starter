@@ -112,7 +112,7 @@ async function getRecipes() {
         // A7. TODO - For each fetch response, retrieve the JSON from it using .json().
         //            NOTE: .json() is ALSO asynchronous, so you will need to use
         //            "await" again
-        const urlFetch = await (await fetch('./' + url)).json();
+        const urlFetch = await (await fetch(url)).json();
         // A8. TODO - Add the new recipe to the recipes array
         recipesArr.push(urlFetch);
         // A9. TODO - Check to see if you have finished retrieving all of the recipes,
