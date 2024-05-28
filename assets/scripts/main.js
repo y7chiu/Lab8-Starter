@@ -80,7 +80,7 @@ async function getRecipes() {
   // EXPOSE - START (All expose numbers start with A)
   // A1. TODO - Check local storage to see if there are any recipes.
   //            If there are recipes, return them.
-  if(localStorage.getItem('recipes') != null && localStorage.getItem('recipes').length() != 0) {
+  if(localStorage.getItem('recipes') != null && localStorage.getItem('recipes').length != 0) {
     return JSON.parse(localStorage.getItem('recipes'));
   }
   /**************************/
@@ -112,7 +112,7 @@ async function getRecipes() {
         // A7. TODO - For each fetch response, retrieve the JSON from it using .json().
         //            NOTE: .json() is ALSO asynchronous, so you will need to use
         //            "await" again
-        const urlFetch = await (await fetch(url)).json();
+        const urlFetch = await (await fetch('./' + url)).json();
         // A8. TODO - Add the new recipe to the recipes array
         recipesArr.push(urlFetch);
         // A9. TODO - Check to see if you have finished retrieving all of the recipes,
