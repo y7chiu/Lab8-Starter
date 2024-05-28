@@ -54,10 +54,9 @@ self.addEventListener('fetch', function (event) {
         return cachedResponse;
       }
       return fetch(event.request).then(function (networkResponse) {
-        //const responseToCache = networkResponse.clone();
+        const responseToCache = networkResponse.clone();
 
-        //cache.put(event.request, responseToCache);
-        cache.put(event.request);
+        cache.put(event.request, responseToCache);
         return networkResponse;
       }).catch(function () {
         // Handle fetch errors
