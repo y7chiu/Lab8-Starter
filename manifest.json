@@ -38,11 +38,6 @@
         "type": "image/svg+xml"
       },
       {
-        "src": "/assets/images/icons/arrow-up.png",
-        "sizes": "any",
-        "type": "image/png"
-      },
-      {
         "src": "/assets/images/icons/arrow-down.png",
         "sizes": "any",
         "type": "image/png"
